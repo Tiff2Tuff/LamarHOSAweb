@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12356b">
+  <meta name="description" content="Lamar HOSA chapter hub for events, member points, competitions, and chapter resources.">
+  <title>Lamar HOSA | Lead. Learn. Serve.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Lamar HOSA home">
+      <span class="brand-mark">H</span>
+      <span><strong>LAMAR HOSA</strong><small>LEAD. LEARN. SERVE.</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu <span>☰</span></button>
+    <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#events" class="nav-link">Events</a>
+      <a href="#points" class="nav-link">Points & Cords</a>
+      <a href="#resources" class="nav-link">Resources</a>
+      <a href="#officers" class="nav-link">Our Team</a>
+      <a href="#member" class="nav-link nav-cta">Member Hub ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section-anchor">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> LAMAR HIGH SCHOOL · HOUSTON, TX</p>
+        <h1>Future healthcare<br><span>starts here.</span></h1>
+        <p class="hero-intro">A community of students exploring healthcare, building leadership, and making a difference—one opportunity at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#events">Explore events <span>↗</span></a>
+          <a class="button button-outline" href="#points">How points work</a>
+        </div>
+        <div class="hero-note"><span class="pulse"></span> Learn together. Lead with purpose. Serve your community.</div>
+      </div>
+      <div class="hero-art" aria-label="Healthcare and leadership illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="cross-card"><span class="medical-cross">+</span><span class="cross-caption">CARE<br>IN ACTION</span></div>
+        <div class="floating-card card-top"><span class="mini-icon">✦</span><span><b>LEADERSHIP</b><small>Grow your impact</small></span></div>
+        <div class="floating-card card-bottom"><span class="mini-icon red">♥</span><span><b>COMMUNITY</b><small>Make a difference</small></span></div>
+        <div class="art-label">HOSA<br><b>FUTURE HEALTH<br>PROFESSIONALS</b></div>
+      </div>
+      <div class="hero-bottom"><span>01 / CHAPTER OVERVIEW</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="quick-stats" aria-label="Chapter highlights">
+      <div><strong>15 <small>PTS</small></strong><span>Annual active-member goal</span></div>
+      <div><strong>01 <small>TEAM</small></strong><span>One community of future professionals</span></div>
+      <div><strong>∞ <small>WAYS</small></strong><span>To learn, lead, and serve</span></div>
+    </section>
+
+    <section id="announcements" class="section section-anchor">
+      <div class="section-heading">
+        <div><p class="eyebrow blue-eyebrow">STAY IN THE LOOP</p><h2>Chapter <span>announcements.</span></h2></div>
+        <p class="section-description">The latest reminders and opportunities from Lamar HOSA.</p>
+      </div>
+      <div class="announcement-grid" id="announcementGrid">
+        <article class="announcement-card featured-announcement">
+          <span class="tag tag-red">MEMBERSHIP</span><span class="announcement-icon">◎</span>
+          <h3>Stay active all year</h3><p>Members need 15 points per school year to be considered active. Check the points section and keep track of your involvement.</p>
+          <a href="#points" class="text-link">View point system <span>→</span></a>
+        </article>
+        <article class="announcement-card">
+          <span class="tag tag-blue">GET INVOLVED</span><span class="announcement-icon">✦</span>
+          <h3>Show up and grow</h3><p>Watch for meeting announcements, guest speakers, project work days, service events, and competition updates.</p>
+          <a href="#events" class="text-link">Explore opportunities <span>→</span></a>
+        </article>
+        <article class="announcement-card">
+          <span class="tag tag-gold">REMINDER</span><span class="announcement-icon">↗</span>
+          <h3>Keep a record</h3><p>Use the member hub to record your activities on this device. Confirm your points with a chapter officer if something looks incorrect.</p>
+          <a href="#member" class="text-link">Open member hub <span>→</span></a>
+        </article>
+      </div>
+      <p class="small-note">Demo content: replace these cards with approved, current chapter announcements before publishing.</p>
+    </section>
+
+    <section id="events" class="section events-section section-anchor">
+      <div class="section-heading">
+        <div><p class="eyebrow blue-eyebrow">WHAT'S HAPPENING</p><h2>Make your next <span>move.</span></h2></div>
+        <p class="section-description">Plan ahead and look out for chapter activities. Dates shown here are placeholders until officers update them.</p>
+      </div>
+      <div class="events-toolbar">
+        <div class="filter-pills" role="group" aria-label="Filter events">
+          <button class="filter-pill selected" data-filter="all">All events</button>
+          <button class="filter-pill" data-filter="meeting">Meetings</button>
+          <button class="filter-pill" data-filter="service">Service</button>
+          <button class="filter-pill" data-filter="competition">Competition</button>
+        </div>
+        <span class="events-count" id="eventsCount">3 opportunities</span>
+      </div>
+      <div class="event-list" id="eventList">
+        <article class="event-row" data-category="meeting">
+          <div class="event-date"><span>TBA</span><strong>—</strong></div><div class="event-main"><span class="tag tag-blue">CHAPTER MEETING</span><h3>General HOSA Meeting</h3><p>Updates, upcoming opportunities, and ways to get involved.</p></div><div class="event-meta"><span>◷ Date to be announced</span><span>⌖ Location to be announced</span></div>
+        </article>
+        <article class="event-row" data-category="service">
+          <div class="event-date"><span>TBA</span><strong>—</strong></div><div class="event-main"><span class="tag tag-red">PROJECT WORK</span><h3>Project Work Day</h3><p>Work with members to make progress on your HOSA project or competition preparation.</p></div><div class="event-meta"><span>◷ Date to be announced</span><span>⌖ Check chapter announcements</span></div>
+        </article>
+        <article class="event-row" data-category="competition">
+          <div class="event-date"><span>TBA</span><strong>—</strong></div><div class="event-main"><span class="tag tag-gold">COMPETITION</span><h3>Competition Preparation</h3><p>Review event guidelines, practice, and check deadlines with your event team.</p></div><div class="event-meta"><span>◷ Check official deadlines</span><span>⌖ Ask your event officer</span></div>
+        </article>
+      </div>
+      <div class="writing-lab-banner"><div class="lab-icon">✎</div><div><strong>Writing Lab · 0.5 points</strong><p>Attend the full lunch period on Monday, Wednesday, or Friday in the 12D Meeting Room. Check with an officer for the current schedule.</p></div><span class="lab-points">+0.5</span></div>
+    </section>
+
+    <section id="points" class="section points-section section-anchor">
+      <div class="section-heading">
+        <div><p class="eyebrow blue-eyebrow">YOUR INVOLVEMENT COUNTS</p><h2>Points & <span>cords.</span></h2></div>
+        <p class="section-description">Use this guide to understand how each activity contributes to your annual HOSA point total.</p>
+      </div>
+      <div class="points-layout">
+        <div class="points-table-wrap">
+          <table class="points-table">
+            <thead><tr><th>Activity</th><th>Points</th></tr></thead>
+            <tbody>
+              <tr><td><span class="activity-dot red-dot"></span> HOSA meeting</td><td>1</td></tr>
+              <tr><td><span class="activity-dot blue-dot"></span> Guest speaker</td><td>1</td></tr>
+              <tr><td><span class="activity-dot gold-dot"></span> HOSA competition</td><td>5</td></tr>
+              <tr><td><span class="activity-dot red-dot"></span> Project work day</td><td>2</td></tr>
+              <tr><td><span class="activity-dot blue-dot"></span> Writing Lab (full lunch)</td><td>0.5</td></tr>
+              <tr><td><span class="activity-dot gold-dot"></span> Volunteer event</td><td>2</td></tr>
+              <tr><td><span class="activity-dot red-dot"></span> NHS service hours bonus</td><td>1</td></tr>
+              <tr><td><span class="activity-dot blue-dot"></span> Fundraiser participation</td><td>2</td></tr>
+              <tr><td><span class="activity-dot gold-dot"></span> Community service event</td><td>2</td></tr>
+              <tr><td><span class="activity-dot red-dot"></span> Recruit a new member</td><td>1 each · max 3</td></tr>
+            </tbody>
+          </table>
+          <p class="table-footnote">Point values are based on chapter-provided information. Confirm any updates with an officer.</p>
+        </div>
+        <aside class="cord-card">
+          <div class="cord-symbol">✦</div><p class="eyebrow">ANNUAL REQUIREMENT</p><div class="cord-number">15<span>pts</span></div><h3>Active member status</h3><p>Earn at least 15 points per school year to be considered an active HOSA member.</p>
+          <div class="cord-divider"></div><h4>Graduation cord checklist</h4>
+          <ul><li>Earn 15 points for each year of membership.</li><li>Be a HOSA member during senior year.</li><li>Paying dues alone does not qualify you for a cord.</li><li>Officers may qualify for an automatic cord under chapter rules; senior-year membership is still required.</li></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="resources" class="section resources-section section-anchor">
+      <div class="section-heading">
+        <div><p class="eyebrow blue-eyebrow">PREPARE WITH PURPOSE</p><h2>Resources for <span>what's next.</span></h2></div>
+        <p class="section-description">Start with these helpful links and check official HOSA guidance for the latest requirements.</p>
+      </div>
+      <div class="resource-grid">
+        <a class="resource-card" href="https://hosa.org/" target="_blank" rel="noopener noreferrer"><span class="resource-icon">↗</span><span class="resource-kicker">OFFICIAL WEBSITE</span><h3>HOSA–Future Health Professionals</h3><p>Explore the organization, news, and official resources.</p><span class="resource-link">Visit HOSA.org ↗</span></a>
+        <a class="resource-card" href="https://hosa.org/guidelines/" target="_blank" rel="noopener noreferrer"><span class="resource-icon">▤</span><span class="resource-kicker">COMPETITION PREP</span><h3>Competitive event guidelines</h3><p>Review official event rules, requirements, and preparation details.</p><span class="resource-link">View guidelines ↗</span></a>
+        <a class="resource-card" href="https://hosa.org/recognition/" target="_blank" rel="noopener noreferrer"><span class="resource-icon">✧</span><span class="resource-kicker">RECOGNITION</span><h3>Recognition & opportunities</h3><p>Explore recognition programs and opportunities offered by HOSA.</p><span class="resource-link">Explore opportunities ↗</span></a>
+      </div>
+      <div class="faq-wrap">
+        <div><p class="eyebrow blue-eyebrow">QUICK ANSWERS</p><h3>Frequently asked <span>questions.</span></h3></div>
+        <div class="faq-list">
+          <details><summary>How many points do I need to be an active member?</summary><p>You need at least 15 points per school year to be considered an active member.</p></details>
+          <details><summary>Does paying dues automatically make me active?</summary><p>No. Paying dues alone does not meet the 15-point active-member requirement.</p></details>
+          <details><summary>How do I qualify for a graduation cord?</summary><p>Follow the chapter's yearly point requirements and remain a HOSA member during senior year. Ask an officer to confirm your individual eligibility.</p></details>
+          <details><summary>What if my points are missing or incorrect?</summary><p>Use the tracker as a personal record and contact a chapter officer or sponsor to verify the official total.</p></details>
+          <details><summary>Where can I find my event's rules?</summary><p>Start with the official HOSA competitive event guidelines and check with your event officer for current instructions.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="officers" class="section officers-section section-anchor">
+      <div class="section-heading">
+        <div><p class="eyebrow blue-eyebrow">THE PEOPLE BEHIND THE CHAPTER</p><h2>Meet your <span>officers.</span></h2></div>
+        <p class="section-description">Our student leaders help members connect, compete, and make the most of HOSA.</p>
+      </div>
+      <div class="officer-grid">
+        <article class="officer-card"><div class="officer-avatar avatar-red">VP</div><div><span class="officer-role">VICE PRESIDENT · COMPETITION</span><h3>Mariam</h3><p>Competition support and preparation.</p></div></article>
+        <article class="officer-card"><div class="officer-avatar avatar-blue">VP</div><div><span class="officer-role">VICE PRESIDENT · MEMBERSHIP</span><h3>Ramsey</h3><p>Member engagement and participation.</p></div></article>
+        <article class="officer-card"><div class="officer-avatar avatar-gold">SEC</div><div><span class="officer-role">SECRETARY</span><h3>Eleanor</h3><p>Chapter organization and records.</p></div></article>
+        <article class="officer-card"><div class="officer-avatar avatar-blue">TR</div><div><span class="officer-role">TREASURER</span><h3>Naomi</h3><p>Chapter finances and dues coordination.</p></div></article>
+        <article class="officer-card"><div class="officer-avatar avatar-red">CS</div><div><span class="officer-role">FUNDRAISING & COMMUNITY SERVICE</span><h3>Caroline</h3><p>Service and fundraising opportunities.</p></div></article>
+        <article class="officer-card"><div class="officer-avatar avatar-gold">SM</div><div><span class="officer-role">MEDIA MANAGER</span><h3>Briahna</h3><p>Social media and chapter updates.</p></div></article>
+      </div>
+      <p class="small-note">Please verify officer names, titles, and approved contact details before making this page public.</p>
+    </section>
+
+    <section id="member" class="member-section section-anchor">
+      <div class="member-copy"><p class="eyebrow light-eyebrow">YOUR PERSONAL HUB</p><h2>Keep your progress<br><span>in one place.</span></h2><p>Record your activities, watch your point total grow, and check your progress toward 15 points.</p><div class="privacy-note"><span>ⓘ</span><p><strong>Prototype note:</strong> this demo saves data only in this browser on this device. It does not provide secure accounts or sync across devices. Do not enter passwords or sensitive information.</p></div></div>
+      <div class="tracker-card">
+        <div class="tracker-header"><div><span class="tracker-kicker">MEMBER POINTS TRACKER</span><h3>My HOSA progress</h3></div><span class="tracker-badge">LOCAL DEMO</span></div>
+        <form id="memberForm" class="member-form">
+          <label for="memberName">Display name <span>(optional)</span></label><input id="memberName" name="memberName" maxlength="40" placeholder="e.g. HOSA Member" autocomplete="off">
+          <div class="progress-heading"><span>Annual point goal</span><strong><span id="totalPoints">0</span> / 15 pts</strong></div>
+          <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+          <p id="progressMessage" class="progress-message">Add activities below to start tracking your points.</p>
+          <label for="activitySelect">Add an activity</label>
+          <div class="activity-entry"><select id="activitySelect" aria-label="Choose activity">
+            <option value="1">HOSA meeting — 1 pt</option><option value="1">Guest speaker — 1 pt</option><option value="5">HOSA competition — 5 pts</option><option value="2">Project work day — 2 pts</option><option value="0.5">Writing Lab — 0.5 pts</option><option value="2">Volunteer event — 2 pts</option><option value="1">NHS service hours bonus — 1 pt</option><option value="2">Fundraiser participation — 2 pts</option><option value="2">Community service event — 2 pts</option><option value="1">Recruit a new member — 1 pt</option>
+          </select><button class="button button-primary" type="button" id="addActivity">+ Add</button></div>
+          <div class="log-header"><span>My activity log</span><button type="button" id="clearLog" class="clear-button">Clear log</button></div>
+          <ul id="activityLog" class="activity-log"><li class="empty-log">No activities added yet.</li></ul>
+          <button class="button button-outline-dark export-button" type="button" id="exportLog">Export my log (.csv)</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-strip">
+      <div><p class="eyebrow blue-eyebrow">HAVE A QUESTION?</p><h2>We're here to <span>help.</span></h2><p>Ask your chapter officers or faculty sponsor about meetings, points, competitions, and membership.</p></div>
+      <a class="button button-primary" href="#officers">Find your officers <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">H</span><span><strong>LAMAR HOSA</strong><small>LEAD. LEARN. SERVE.</small></span></a>
+    <p>Built for students exploring the future of healthcare.</p>
+    <div class="footer-links"><a href="#resources">Resources</a><a href="#points">Point system</a><a href="#member">Member hub</a></div>
+    <small class="copyright">© <span id="year"></span> Lamar HOSA · Unofficial student chapter website</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
